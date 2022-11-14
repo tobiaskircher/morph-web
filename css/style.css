@@ -1065,7 +1065,7 @@ Responsive Styles
   }
   /*** iPhone Feature ***/
   #iphone-feature {
-    padding: 80px 0 60px;
+    padding: 10px 0 60px;
   }
   #iphone-feature .iphone-showcase {
     position: relative;
@@ -1077,73 +1077,7 @@ Responsive Styles
   #iphone-feature .iphone-showcase img {
     width: 100%;
   }
-  /*** Map Feature ***/
-  #map-feature {
-    padding: 80px 0 100px;
-  }
-  #map-feature .map-showcase {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    padding: 0 15px;
-    margin-top: 64px;
-  }
-  #map-feature .map-showcase img {
-    width: 100%;
-  }
-  /*** iPhone Screens ***/
-  #iphone-screens {
-    padding: 120px 0 620px;
-  }
-  #iphone-screens .images-list li {
-    position: absolute;
-    width: 240px;
-    top: 68px;
-  }
-  #iphone-screens .images-list li img {
-    max-width: 100%;
-  }
-  #iphone-screens .images-list li:nth-child(1) {
-    margin-left: -680px;
-  }
-  #iphone-screens .images-list li:nth-child(2) {
-    margin-left: -410px;
-  }
-  #iphone-screens .images-list li:nth-child(4) {
-    margin-right: -410px;
-  }
-  #iphone-screens .images-list li:nth-child(5) {
-    margin-right: -680px;
-  }
-  #iphone-screens .images-list li.main-img {
-    width: 295px;
-    margin-left: -148px;
-  }
-  /*** Customers ***/
-  #customers .carousel-control.left,
-  #customers .carousel-control.right {
-    display: none;
-  }
-  /*** Plan ***/
-  #plan {
-    padding: 120px 0 150px;
-  }
-  #plan #price_tables .individual.active, #plan #price_tables .company.active {
-    margin-top: 80px;
-  }
-  #plan .toggle-container .switch-toggles .individual, #plan .toggle-container .switch-toggles .company {
-    margin-top: 0;
-  }
-  /*** Footer ***/
-  #footer .socials {
-    margin-bottom: 60px;
-  }
-  #footer .footer-links {
-    margin-bottom: 30px;
-  }
-  #footer .footer-links:last-child {
-    margin-bottom: 0;
-  }
+
   /*** Copyright Container ***/
   .copyright-container .text-right {
     text-align: left;
