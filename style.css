@@ -178,6 +178,7 @@ button:hover{
     .menu-list{
         overflow: hidden;
         transition: 0.5s;
+        pointer-events: none;
     }
 
     .menu-list ul li a{

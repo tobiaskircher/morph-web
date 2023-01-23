@@ -68,9 +68,7 @@
             </div>
 
             <section class="contact">
-                <h1>Contact</h1>
                 <div class="contact-row">
-
                     <div class="col-1">
                         <img src="images/contact.png" class="phone-stats">
                     </div>
@@ -86,7 +84,8 @@
         </div>
 
         <div class="footer">
-            &#169; 2023 Morph Fitness. Created by Tobias Kircher.
+            <p>Privacy Policy - Terms and Conditions</p>
+            &#169; 2023 Morph . Created by Tobias Kircher.
         </div>
 
         <script>
@@ -95,11 +94,11 @@
             function togglemenu(){
                 if(menuList.style.maxHeight == "0px"){
                     menuList.style.maxHeight = "130px";
-                    menuList.hidden=false;
+                    menuList.style.pointerEvents = "auto";
                     
                 } else {
                     menuList.style.maxHeight = "0px";
-                    menuList.hidden=true;
+                    menuList.style.pointerEvents = "none";
                 }
             }
         </script>
